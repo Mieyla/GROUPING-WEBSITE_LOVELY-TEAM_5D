@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LOVELY TEAM  | BRACELETS</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style></style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="navbar">
+        <div class="logo">Lovely Team</div>
+
+        <ul class="nav-links">
+            <li><a href="home page.html">Home</a></li>
+            <li><a href="wishlist.html">Wish list</a></li>
+            <li class="dropdown">
+                <a href="#">Collection ▾</a>
+                <div class="dropdown-menu">
+                    <a href="rings.html">Rings</a>
+                    <a href="bracelets.html">Bracelets</a>
+                    <a href="earrings.html">Earrings</a>
+                    <a href="chains.html">Chains</a>
+                    <a href="charm.html">Charm</a>
+                </div>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="about us.html">About us</a></li>
+
+            <li class="nav-search">
+                <input type="text" placeholder="Search..." oninput="filterGlobalItems(this.value)">
+            </li>
+
+            <li class="user-icon"><i class="fa fa-user"></i></li>
+        </ul>
+    </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<div class="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="chainvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="hero-content">
+        <h1>CHAINS COLLECTION</h1>
+    </div>
+</div>
+
+<!-- ================= TOP BRANDS ================= -->
+<div class="section-title">Top Brands</div>
+<!-- CHAINS COLLECTION -->
+<section class="chains-section">
+    <div class="chains-grid">
+
+        <div class="chains-card">
+            <img src="pandorachi1.jpeg" alt="Pandora Essence 14K Gold Plated Organically Shaped Two-Tone Pendant Chain">
+            <h3>Pandora Essence 14K Gold Plated Organically Shaped Two-Tone Pendant Chain</h3>
+            <p class="price">RM 510.00</p>
+            <div class="rating">★★★★☆</div>
+            <p class="brand">Brand: Pandora</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Pandora Essence 14K Gold Plated Organically Shaped Two-Tone Pendant Chain', 'RM 510.00 ', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Pandora Essence 14K Gold Plated Organically Shaped Two-Tone Pendant Chain','RM 510.00','Pandora','Yellow Gold & White Gold tone','Weight: 5 g Length: 45 cm','Silver','Contemporary intertwined ring pendant','A sophisticated two-tone necklace featuring elegantly intertwined rings in yellow and white gold tones. Symbolizing unity and timeless connection, this polished piece delivers understated luxury, perfect for both everyday refinement and elegant occasions')">View Details</button>
+        </div>
+
+        <div class="chains-card">
+            <img src="pandorachi2.jpeg" alt="Pandora Halo Hearts Pendant Chain">
+            <h3>Pandora Halo Hearts Pendant Chain</h3>
+            <p class="price">RM 739.00</p>
+            <div class="rating">★★★★☆</div>
+            <p class="brand">Brand: Pandora</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Pandora Halo Hearts Pendant Chain', 'RM 739.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Pandora Halo Hearts Pendant Chain','RM 739.00','Pandora','Silver','Weight: 4 g Length: 45 cm','Silver tone with clear crystal and red gemstone','Romantic double-heart pendant with gemstone accents','An exquisite double-heart necklace adorned with a radiant clear crystal and a rich red gemstone. Crafted for elegance and romance, it offers a luxurious sparkle ideal for meaningful gifting and graceful wear')">View Details</button>
+        </div>
+
+        <div class="chains-card">
+            <img src="pandorachi3.jpeg" alt="Pandora Treated Freshwater Cultured Pearl & Pavé Collier Chain">
+            <h3>Pandora Treated Freshwater Cultured Pearl & Pavé Collier Chain</h3>
+            <p class="price">RM 911.00</p>
+            <div class="rating">★★★★★</div>
+            <p class="brand">Brand: Pandora</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Pandora Treated Freshwater Cultured Pearl & Pavé Collier Chain', 'RM 911.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Pandora Treated Freshwater Cultured Pearl & Pavé Collier Chain','RM 911.00','Pandora','Sterling Silver','Weight: 3.8 g Length: 45 cm (adjustable)','Silver','Timeless elegance with a pearl and crystal-embellished circle pendant','This exquisite necklace combines the classic beauty of a luminous pearl with the brilliance of finely set crystals. Crafted in polished sterling silver, it embodies sophistication and grace. Perfect for adding a touch of refined luxury to both everyday wear and formal occasions')">View Details</button>
+        </div>
+
+        <div class="chains-card">
+            <img src="habibchi1.jpeg" alt="Yellow Gold">
+            <h3>Yellow Gold</h3>
+            <p class="price">RM 1,665.00</p>
+            <div class="rating">★★★☆☆</div>
+            <p class="brand">Brand: Habib Jewels</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Yellow Gold', 'RM 1,655.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Yellow Gold ','RM 1,665.00','Habib Jewels','Gold','Length: 45 cm Weight: 5.5 g','Gold','Classic gold chain','A timeless gold necklace with a rich gold tone, ideal for formal occasions and premium gifting.')">View Details</button>
+        </div>
+
+        <div class="chains-card">
+            <img src="habibchi2.jpeg" alt="Yellow Gold">
+            <h3>Yellow Gold</h3>
+            <p class="price">RM 1,192.00</p>
+            <div class="rating">★★★★☆</div>
+            <p class="brand">Brand: Habib Jewels</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Yellow Gold', 'RM 1,192', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Yellow Gold','RM 1,192.00','Habib Jewels','Gold','Weight: 4.5 g Length: 50 cm','Gold','Classic gold chain design','A simple yet striking necklace with rich gold hue, versatile for formal and traditional wear')">View Details</button>
+        </div>
+
+        <div class="chains-card">
+            <img src="habibchi3.jpeg" alt="Round Diamond ">
+            <h3>Round Diamond </h3>
+            <p class="price">RM1,692.00</p>
+            <div class="rating">★★★★☆</div>
+            <p class="brand">Brand: Habib Jewels</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Round Diamond', 'RM 1,692.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Round Diamond ','RM1,692.00','Habib Jewels','916/22K Gold','Weight: 4.8 g Length: 45 cm','White Gold / Silver tone with Rose Gold accent','Romantic heart pendant with intertwined design and crystal detailing','An elegant and feminine necklace featuring a dual-heart design accented with sparkling stones and a subtle rose gold knot. The blend of white and rose tones adds depth and charm, making it perfect for everyday elegance, anniversaries, or meaningful gifts')">View Details</button>        </div>
+    </div>
+</section>
+
+<!-- ================= OTHER BRANDS ================= -->
+<div class="section-title">Other Brands</div>
+
+<section class="chains-section">
+    <div class="chains-grid">
+
+        <div class="chains-card">
+            <img src="swarovskichi.jpeg" alt="Ariana Grande x Swarovski Y chain Mixed cuts, Crystal pearl, Heart, White, Rhodium plated">
+            <h3>Ariana Grande x Swarovski Y chain Mixed cuts, Crystal pearl, Heart, White, Rhodium plated</h3>
+            <p class="price">RM 2,500.00</p>
+            <div class="rating">★★★★★</div>
+            <p class="brand">Brand: SWAROVSKI</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Ariana Grande x Swarovski Y chain Mixed cuts, Crystal pearl, Heart, White, Rhodium plated', 'RM 2,500.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Ariana Grande x Swarovski Y chain Mixed cuts, Crystal pearl, Heart, White, Rhodium plated','RM 2,500.00','SWAROVSKI','18K Gold','38 cm – 48 cm','Sterling Silver','Romantic Y-shaped necklace with pearls and a crystal heart centrepiece','A stunning expression of elegance and romance, this necklace features a delicate arrangement of luminous pearls and a sparkling heart motif at its centre. The graceful drop design adds sophistication, making it a perfect choice for evening wear or as a thoughtful gift symbolizing love and timeless beauty.')">View Details</button>        </div>
+
+        <div class="chains-card">
+            <img src="swarovskichi2.jpeg" alt="Una Angelic pendant round cut, Double sided motifs, White, Rhodium plated">
+            <h3>Una Angelic pendant round cut, Double sided motifs, White, Rhodium plated</h3>
+            <p class="price">RM 1,200.00</p>
+            <div class="rating">★★★★★</div>
+            <p class="brand">Brand: SWAROVSKI</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Una Angelic pendant round cut, Double sided motifs, White, Rhodium plated', 'RM 1,200.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Una Angelic pendant round cut, Double sided motifs, White, Rhodium plated','RM 1,200.00','Darry Ring','1Sterling Silver','38 cm – 48 cm','Crystals, Rhodium plated','Daily use','Offering multiple styles in one, this elegant pendant can also be worn as a choker. The rhodium plated chain features a sliding mechanism for an easily adjustable fit and is adorned with small metallic balls and a glittering double-sided motif. Simply reverse the jewellery to showcase a different display of round-cut crystals. Mix and match with other Una Angelic pieces for a look of ultimate radiance.')">View Details</button>        
+        </div>
+        <div class="chains-card">
+            <img src=" tiffanycochi1.jpeg" alt="Interlocking Circles Pendant in Yellow Gold, Small">
+            <h3>Interlocking Circles Pendant in Yellow Gold, Small</h3>
+            <p class="price">RM 999.00</p>
+            <div class="rating">★★★☆☆</div>
+            <p class="brand">Brand: TIFFANY & CO.</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Interlocking Circles Pendant in Yellow Gold, Small', 'RM 999.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Interlocking Circles Pendant in Yellow Gold, Small','RM 999.00','TIFFANY & CO.','Yellow Gold','48 cm','Yellow Gold','Modern interlocking ring pendant on a fine gold chain','A symbol of unity and timeless elegance, this necklace features two interlocking gold rings suspended from a sleek chain. Its polished finish radiates warmth and sophistication, making it a versatile piece that complements both casual chic and formal attire. Perfect for gifting or adding a touch of understated luxury to any look.')">View Details</button>
+        </div>
+
+        <div class="chains-card">
+            <img src=" tiffanycochi2.jpeg" alt="Paloma Picasso, Olive Leaf Pendant in Yellow Gold with Pearls">
+            <h3>Paloma Picasso, Olive Leaf Pendant in Yellow Gold with Pearls</h3>
+            <p class="price">RM 1,310.00</p>
+            <div class="rating">★★★★☆</div>
+            <p class="brand">Brand: TIFFANY & CO.</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Paloma Picasso, Olive Leaf Pendant in Yellow Gold with Pearls', 'RM 1,310.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Paloma Picasso, Olive Leaf Pendant in Yellow Gold with Pearls','RM 1,310.00','TIFFANY & CO.','18K Gold, Platinum 950/1000','45 cm','White, Gold','Classic gold chain with a single pearl pendant','Radiating timeless grace, this necklace features a luminous pearl delicately set in a polished gold pendant. The minimalist design captures pure sophistication, making it an ideal accessory for both everyday elegance and formal occasions. A true statement of refined femininity and enduring beauty.')">View Details</button>
+        </div>
+
+        <div class="chains-card">
+            <img src="skjjewellwerychi1.jpeg" alt="Shima Brilliant Pearl Pendant">
+            <h3>Shima Brilliant Pearl Pendant</h3>
+            <p class="price">RM 490.00</p>
+            <div class="rating">★★★★☆</div>
+            <p class="brand">Brand: SK JEWELLERY</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Shima Brilliant Pearl Pendant', 'RM 490.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Shima Brilliant Pearl Pendant','RM 490.00','SK JEWELLERY','Cubic Zirconia Crystal set in Gold, Rose Gold and Rhodium plated brass','8.56mm (length) x 23mm (height) ','White Gold','Twisted Pearl Drop','Radiating timeless grace, this necklace features a luminous pearl delicately set in a polished gold pendant. The minimalist design captures pure sophistication, making it an ideal accessory for both everyday elegance and formal occasions. A true statement of refined femininity and enduring beauty.')">View Details</button>        
+        </div>
+
+        <div class="chains-card">
+            <img src="benejewellerychi.jpeg" alt="Victoria Heart">
+            <h3>Victoria Heart</h3>
+            <p class="price">RM 817.00</p>
+            <div class="rating">★★★☆☆</div>
+            <p class="brand">Brand: BENE JEWELLERY</p>
+            <button class="wishlist-btn"
+            onclick="addToWishlist('Victoria Heart', 'RM 817.00', 'Pandora', 'pandora1.jpg')"> ♥ Like </button>
+            <button onclick="openModal('Victoria Heart','RM 817.00','BENE JEWELLERY','Sterling Silver','45 cm','Silver','Delicate chain with heart-shaped diamond and bezel-set accents','This enchanting necklace captures timeless romance with its radiant heart-shaped diamond centrepiece, complemented by subtle bezel-set crystals along the chain. Crafted in polished sterling silver, it embodies refined elegance and understated sparkle. It perfect for both special occasions and everyday sophistication.')">View Details</button>        
+        </div>
+    </div>
+</section>
+
+<!-- ================= MODAL ================= -->
+<div id="ringModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+
+    <h2 id="modalTitle"></h2>
+    <p class="modal-price" id="modalPrice"></p>
+    <p class="modal-brand" id="modalBrand"></p>
+
+    <ul>
+      <li><strong>Material:</strong> <span id="modalMaterial"></span></li>
+      <li><strong>Size:</strong> <span id="modalSize"></span></li>
+      <li><strong>Colour:</strong> <span id="modalColour"></span></li>
+      <li><strong>Suitable For:</strong> <span id="modalWear"></span></li>
+    </ul>
+
+    <p id="modalDesc"></p>
+  </div>
+</div>
+</section>
+
+<!-- ================= CONTACT BOX ================= -->
+<section class="contact-section-box" id="contact">
+    <div class="contact-content">
+
+        <!-- Logo -->
+        <div class="contact-logo">
+            <img src="logo.jpg" alt="Lovely Jewellery Logo">
+        </div>
+
+        <!-- ================= CONTACT SECTION ================= -->
+<section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: Lovelyteam2023@gmail.com</p>
+        <p>Phone: 019-6572648</p>
+        <p>Address: Alfayyat, pt1670,kampung Belukar, Machang, 18500 Kelantan</p>
+    </section>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 Lovely Jewellery. All Rights Reserved.</p>
+    <p class="footer-time" id="malaysiaTime"></p>
+</footer>
+
+<script>
+function openModal(name, price, brand, material, size, colour, wear, desc) {
+  document.getElementById("modalTitle").innerText = name;
+  document.getElementById("modalPrice").innerText = price;
+  document.getElementById("modalBrand").innerText = brand;
+  document.getElementById("modalMaterial").innerText = material;
+  document.getElementById("modalSize").innerText = size;
+  document.getElementById("modalColour").innerText = colour;
+  document.getElementById("modalWear").innerText = wear;
+  document.getElementById("modalDesc").innerText = desc;
+  document.getElementById("ringModal").style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("ringModal").style.display = "none";
+}
+
+function updateMalaysiaTime() {
+    const options = {
+        timeZone: "Asia/Kuala_Lumpur",
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+    };
+
+    const malaysiaTime = new Intl.DateTimeFormat("en-MY", options).format(new Date());
+    document.getElementById("malaysiaTime").textContent =
+        "Malaysia Time: " + malaysiaTime;
+}
+
+// Update immediately
+updateMalaysiaTime();
+
+// Update every second
+setInterval(updateMalaysiaTime, 1000);
+
+function addToWishlist(name, price, brand, img) {
+    let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+    wishlist.push({ name, price, brand, img });
+    localStorage.setItem('wishlist', JSON.stringify(wishlist));
+
+    // Redirect to wishlist page
+    window.location.href = "wishlist.html";
+}
+
+
+</script>
+
+</script>
+
+</body>
+</html>
